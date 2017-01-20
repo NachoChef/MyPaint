@@ -1,11 +1,11 @@
 '''
-File: MyPaint.py
-Name: Justin Jones
-Date:
 Description: MyPaint.py displays a basic paint program that is capable of drawing rectangles, ovals, arcs, lines and free
             pen drawings. Fill may be set or disabled as desired. The color of the most recent drawing may be changed to
             current color if it is not a free drawing (this works for fill state as well). Pen size varies from 1 to 20
             for free drawings, and is changed with a right-click pop-up menu.
+            
+            Another option would be to build the commands as a string and simply call exec string. This would also
+            allow easy saving and loading of files. 
 
 '''
 
